@@ -129,11 +129,11 @@ From the Traffic Crashes dataset, I used the following features:
 
     - XGBoost makes a decision without looking ahead to see if it is the absolute best choice in long term
     
-    - Initial Model Results:
+    - Vanilla Model Results:
         - Injury, F1 → 72%
         - No Injury, F1 → 91 %
         
-    - The Improved Model Results:
+    - Hyper Tuned Model Results:
         - Injury, F1 → 66 %
         - No Injury, F1 → 90 %
         
@@ -141,11 +141,11 @@ From the Traffic Crashes dataset, I used the following features:
 
     - The model considers only a small subset of features rather than all of the features of the model
     
-    - Initial Model Results:
+    - Vanilla Model Results:
         - Injury, F1 → 63 %
         - No Injury, F1 → 89 %
         
-    - The Improved Model Results:
+    - Hyper Tuned Model Results:
         - Injury, F1 → 52 %
         - No Injury, F1 → 89 %
 
@@ -181,7 +181,7 @@ From the Traffic Crashes dataset, I used the following features:
 
 > 3.) BEAT_OF_OCCURRENCE
 
->> Chicago Police Department Beat ID. Boundaries available at [d](https://data.cityofchicago.org/d/aerh-rz74) 
+>> Chicago Police Department Beat ID. Boundaries available [here](https://data.cityofchicago.org/Public-Safety/Boundaries-Police-Beats-current-/aerh-rz74) 
 
 
 ***
@@ -206,7 +206,7 @@ From the Traffic Crashes dataset, I used the following features:
 
 ## For More Information
 
-Please review my full technical analysis in [Jupyter Notebook](link) or my nontechnical analysis in [presentation](link).
+Please review my full technical analysis in [Jupyter Notebook](https://github.com/SamuelRahwa/Multiclass-Classification-Chicago-Traffic-Crashes/blob/main/Modeling/Hyper-Tuned%20Models.ipynb) or my nontechnical analysis in [presentation](https://github.com/SamuelRahwa/Multiclass-Classification-Chicago-Traffic-Crashes/blob/main/Predicting%20Injuries%20vs%20No%20Injuries%20in%20Chicago%20Traffic%20Crashes%20Presentation%20.pdf).
 
 For any additional questions, please contact **Samuel Rahwa at samuelaaronrahwa@gmail.com**
 
@@ -214,8 +214,8 @@ For any additional questions, please contact **Samuel Rahwa at samuelaaronrahwa@
 
 ```
 ├── Data                                        <- Both sourced externally and generated from code
+├── Models                                      <- Narrative documentation of analysis in Jupyter notebook
 ├── Images                                      <- Both sourced externally and generated from code
 ├── Chicago Traffic Crashes Presentation.pdf    <- PDF version of project presentation
-├── Modeling Folder                             <- Narrative documentation of analysis in Jupyter notebook
 └── README.md                                   <- The top-level README for reviewers of this project
 ```
